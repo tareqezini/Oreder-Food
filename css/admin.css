@@ -1,0 +1,424 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma , Verdana , Geneva, sans-serif
+}
+.container
+{
+    margin: 0 auto;
+    width: 80%;
+}
+.text-center
+{
+    text-align: center;
+}
+.col-4
+{
+    width: 100%;
+    display: inline-block;
+}
+.tbl-full
+{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    margin: auto;
+}
+.btn
+{
+    padding: 1.2% 1.5%;
+    margin: 1.5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-primary
+{
+    color: white;
+    background-color: #3498db;
+}
+.btn-primary:hover
+{
+    background-color: #2980b9;
+}
+.btn-danger
+{
+    color: white;
+    background-color: #c0392b;
+
+}
+.btn-danger:hover
+{
+    background-color: #e74c3c;
+}
+.btn-secondry
+{
+    color: white;
+    background-color: #2ecc71;
+}
+.btn-secondry:hover
+{
+    background-color: #27ae60;
+}
+
+/*---------------- start nav bar -------------------------*/
+.nav-bar
+{
+    border-bottom: 1px solid #bdc3c7;
+}
+.nav-bar ul
+{
+    list-style-type: none;
+    margin: 1%;
+}
+.nav-bar ul li 
+{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    
+    
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: #9b59b6;
+}
+.nav-bar ul li a:hover
+{
+    
+    color: #8e44ad;
+}
+/*---------------- end nav bar -------------------------*/
+/*---------------- start main content -------------------------*/
+.main-content
+{
+    padding: 2%;
+}
+.main-content .box-ping
+{
+   margin-top: 40px;
+    padding: 4% 2%;
+    margin: 2% 2%;
+    width: 25%;
+    border-radius: 20px;
+    color: white;
+    box-shadow:0 0 20px 5px  #c7cdce;
+}
+.main-content .box-one
+{
+    background-color: #ff7675;
+}
+.main-content .box-tow
+{
+    background-color: #feca57;
+}
+.main-content .box-three
+{
+    background-color: #81ecec;
+}
+.main-content .box-ping span
+{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.main-content .box-ping p
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+/*-----------------------start mange admin-------------------------------------*/
+.main-content h1
+{
+    margin-bottom: 5%;
+    font-size: 3rem;
+}
+.main-content .btn-primary
+{
+    display: block;
+    margin: 0.5% 0;
+    width: 8%;
+    padding: 1%;
+}
+.tbl-full tr th
+{
+    border-bottom:1px solid #ecf0f1;
+    padding: 1%;
+    font-weight: bold;
+}
+.tbl-full tr td
+{
+    padding: .5%;
+}
+
+/*-------------------end mange admin-----------------------------------------*/
+/*-------------------Start Add Admin-----------------------------------------*/
+.addAdmin
+{
+    margin-top: 2%;
+}
+.addAdmin h1
+{
+    margin-bottom: 2%;
+}
+.addAdmin input
+{
+    width: 44%;
+    display: block;
+    margin: 0.8% auto;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid #8e44ad85;
+}
+.addAdmin .btn-add
+{
+    width: 47%;
+    cursor: pointer;
+}
+.addAdmin .btn-add:hover
+{
+    background-color: blueviolet;
+    color: #fff;
+}
+.addAdmin .error
+{
+    background-color: #f96050cc;
+    color: #fff;
+    padding: 0.7%;
+    width: 45%;
+    margin: auto
+}
+.eroor-messagse
+{
+    margin: 0.8% 0; 
+    color: white;
+   
+}
+.eroor-messagse .success
+{
+    background-color: #55efc4;
+    padding: 0.8%;
+}
+.eroor-messagse .faild
+{
+    background-color: #ff7675;
+    padding: 0.8%;
+}
+/*---------------- end Add Admin -------------------------*/
+/*---------------- start log in -------------------------*/
+.login
+{
+    margin:15% auto;
+}
+.login h1
+{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.login input
+{ 
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    margin-top: 1%;
+    border:1px solid #8e44ad85;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+.login input:last-of-type
+{
+   cursor: pointer;
+    width: 30%;
+}
+.login input:last-of-type:hover
+{
+    background-color: #9b59b6;
+    color: #fff;
+}
+/*---------------- end log in -------------------------*/
+/*---------------- end main content -------------------------*/
+/*----------------Starat Page Mange Categories-------------------------*/
+
+.category .form_cat
+{
+    margin-top: 1%;
+    font-size: 1rem;  
+}
+.category .form_cat table
+{
+    margin: 40px auto;
+    width: 80%;
+
+}
+.category .form_cat table input
+{
+    margin: 0.8%;
+    accent-color: #8e44ad;
+    margin-top: 1.5%;
+}
+
+.category .form_cat table .title
+{
+    width: 80%;
+    height: 30px;
+    border: 1px solid #8e44ad;
+    padding: 4px 8px;
+}
+.category .form_cat .file
+{
+    padding: 20px;
+}
+.category .form_cat .addcat
+{
+    border: 1px solid #9b59b6;
+    margin: 20px 40%;
+    width: 20%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #9b59b6;
+    color: white;
+    
+}
+.category .form_cat .addcat:hover
+{
+    background-color: #8e44ad;
+    color: white;
+}
+.category img
+{
+    width: 50px;
+    height: 50px;
+}
+.category  tr
+{
+    border: 1px solid rgb(10, 10, 10);
+}
+
+
+/*----------------End Page Mange Categories-------------------------*/
+/*----------------start Page Mange food-------------------------*/
+.food img
+{
+    width: 15%;
+}
+.food .form_cat table
+{
+    text-align: left;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 1px solid #ddd;
+    font-size: 1.3rem;
+    
+}
+
+.food .form_cat table input
+{
+    width:  80%;
+    padding: 20px;
+    margin:5px auto;
+    border: 1px solid #8e44ad;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+.food .form_cat table textarea
+{
+    width: 83%;
+    border: 1px solid #8e44ad;
+    height: 75PX;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1.4rem;
+}
+
+.food .form_cat table .select 
+{
+        width: 85% !important;
+        border: 1px solid #8e44ad;
+        border-radius: 10px;
+        height: 60px;
+        font-size: 1.5rem;
+        padding: 10px 15px;
+        margin:5px auto;
+}
+.food .form_cat table .radio
+{
+    border: 1px solid rgb(10, 10, 10);
+    width: 2%;
+    margin-right: 65px;
+    accent-color: #8e44ad;
+    margin: 8   px auto;
+}
+.food .form_cat table .addfood
+{
+    width: 36%;
+    margin: 15px 35%;
+    background-color: #8e44ad;
+    color: white;
+}
+.food .form_cat table .addfood:hover
+{
+    background-color: #9b59b6;
+}
+.food .form_cat table .img_upd
+{
+    width: 20%;
+    margin: 10px 30%;
+    border: 3px solid #9b59b6;
+}
+/*----------------End Page Mange food-------------------------*/
+
+
+/*----------------Start Page Order food-------------------------*/
+.order .tbl-full
+{
+    background-color: #fff;
+}
+.order select 
+{
+    width: 39%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #8e44ad;
+    font-size: 1.5rem;
+    
+}
+.order label
+{
+    font-size: 1.5rem;
+}
+.order input
+{
+    width: 22%;
+    padding: 1%;
+    margin-top: 4%;
+    border-radius: 20px;
+    border: 1px solid #8e44ad;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #8e44ad;
+}
+.order input:hover
+{
+    background-color: #8e44ad;
+    color: #fff;
+}
+
+/*----------------End Page Order food-------------------------*/
+
+/*---------------- start footer -------------------------*/
+.footer
+{
+    background-color: #8e44ad;
+    color: white;
+    padding: 2% 0;
+    position: fixed;
+    top:91%;
+    width: 100%;
+}
+/*---------------- end footer -------------------------*/
